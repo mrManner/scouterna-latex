@@ -1,5 +1,6 @@
 \documentclass[12pt,a4paper]{article}
 \usepackage{parskip}				% Blank lines for electronic publication
+\usepackage{graphicx}
 
 %%% Old fashioned LaTeX fonts 
 \usepackage{ebgaramond-maths}
@@ -19,20 +20,34 @@
 \postdate{\end{center}}
 
 \usepackage{fancyhdr}
-\pagestyle{fancyplain}
-\fancyhead{}
-\fancyfoot[L]{Scouterna}
-\fancyfoot[C]{Box 420 34\\126 12 Stockholm}
-\fancyfoot[R]{Webb:www.scouterna.se\\Epost: info@scouterna.se}
 
 \begin{document}
+
+\pagestyle{fancyplain}
+\renewcommand{\headrulewidth}{0pt}
+
+\fancyhead[L]{\includegraphics[height=1cm]{logo.eps}}
+\fancyhead[R]{}
+
+\fancyfoot[L]{	{\headingfont\small Scouterna}\\
+				Box 420 34\\
+				126 12 Stockholm}
+				
+\fancyfoot[C]{	~\\
+				Tel: 08--568 432 00\\
+				info@scouterna.se}
+				
+\fancyfoot[R]{	 ~\\
+				Webb:www.scouterna.se}
+
 	\title{Hack up furballs stares at human}
-	\author{Johan Manner\\
-			johan.manner@scouterna.se\\
-			08--568 432 50
-	}
-	\maketitle%								%%% Uncomment for fancy title
 	
+	\author{	Johan Manner\\
+				johan.manner@scouterna.se\\
+				08--568 432 50
+	}
+	
+	\maketitle%								%%% Uncomment for fancy title
 	Step on your keyboard while you're gaming and then turn in a circle 
 	have secret plans pounce on unsuspecting person and and sometimes switches 
 	in french and say "miaou" just because well why not or human is washing you 
