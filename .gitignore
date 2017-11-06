@@ -1,3 +1,7 @@
+# For now let's not commit graphics
+*.eps
+*.jpg
+
 ## Core latex/pdflatex auxiliary files:
 *.aux
 *.lof
